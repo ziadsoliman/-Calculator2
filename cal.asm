@@ -25,3 +25,16 @@
 		errorMag  db 'Math Error can not divide by zero please Enter the right equation',0
 		
 .code
+
+ main PROC
+          lea edx, stringIn
+	  mov ecx, MAX+1
+	  call ReadString
+	  call splitByAdd	
+ 
+ main ENDP
+ 
+ splitByAdd PROC
+ 
+ splitByAdd ENDP 
+ 
